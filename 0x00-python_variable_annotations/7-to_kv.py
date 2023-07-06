@@ -5,6 +5,7 @@ from typing import Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """returns a tuple consisting of k and v as float"""
     if isinstance(v, int):
         v = float(v)
     return (k, v**2)

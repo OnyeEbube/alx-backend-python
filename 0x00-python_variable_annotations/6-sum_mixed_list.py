@@ -4,6 +4,7 @@ from typing import Union
 
 
 def sum_mixed_list(mxd_list: Union[int, float]) -> float:
+    """returns their sum as a float"""
     sums = 0
     for i in mxd_list:
         sums += i
