@@ -2,7 +2,8 @@
 """A type-annotated function sum_mixed_list"""
 
 
-import typing
+from typing import Union
+from typing import List
 
 
 def sum_mixed_list(mxd_list: List[Union[int, float]]) -> float:
