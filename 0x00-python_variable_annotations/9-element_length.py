@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env python3
 """Annotates a function's parameters and return values"""
 
 
