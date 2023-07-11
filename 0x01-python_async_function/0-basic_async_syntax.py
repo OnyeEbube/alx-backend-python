@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-An asynchronous coroutine that takes in an integer argument that waits for a delay
+An asynchronous coroutine that takes in an integer
+argument that waits for a delay
 """
 
 
